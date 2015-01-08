@@ -17,7 +17,7 @@ const (
     defaultPoolSize = 5
 )
 
-var defaultAddr = "10.65.18.229:6379"
+var defaultAddr = "127.0.0.1:6379"
 
 type Client struct {
     Addr        string
